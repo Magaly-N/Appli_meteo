@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather App</title>
+    <meta
+      name="description"
+      content="Application pour avoir la météo, le vent, le taux d'humidité et la température par rapport à une ville choisie"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/a75ddc61c5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="card">
+      <div id="city" class="box"></div>
+      <div id="description" class="box"></div>
+      <div id="wind" class="box"></div>
+      <div class="flex">
+        <div id="temp" class="box"></div>
+        <div id="humidity" class="box"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="meteo.js"></script>
+</html>
